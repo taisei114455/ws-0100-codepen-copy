@@ -19,69 +19,18 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 
-.l-sidebar {
-  background-color: gray;
-}
-.l-sidebar .sidebar-ue {
-  text-align: center;
-}
-.l-sidebar .sidebar-ue p {
-  font-size: 13px;
-}
-.l-sidebar .sidebar-ue .start-coding a {
-  border-radius: 3px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  width: 160px;
-  display: block;
-  background-color: black;
-}
-.l-sidebar .sidebar-ue .start-coding a:hover {
-  opacity: 0.5;
-}
-.l-sidebar .sidebar-menu h2 {
-  font-size: 12px;
-  text-align: left;
-}
-.l-sidebar .sidebar-menu a {
-  display: block;
-  background-color: red;
-}
-.l-sidebar .sidebar-menu a:hover {
-  background-color: black;
-}
-.l-sidebar .sidebar-menu ul {
-  margin: 0px;
+ul {
   padding-left: 0;
+  margin-left: 0;
   list-style-type: none;
 }
-.l-sidebar .sidebar-menu li {
-  display: block;
-  background-color: orang;
-}
-.l-sidebar .sidebar-menu .EXPLORE h2 {
-  color: yellow;
-}
-.l-sidebar .sidebar-menu .GROW h2 {
-  color: green;
-}
-.l-sidebar .sidebar-menu .GROW span {
-  border-radius: 3px;
-  font-size: 10px;
-  color: black;
-  background-color: yellow;
-}
-.l-sidebar .sidebar-menu .COMPANIES h2 {
-  color: blue;
-}
+
 .l-flex {
   display: flex;
-}
-.l-flex .l-sidebar {
-  width: 200px;
 }
 
 .l-align-center {
@@ -90,6 +39,92 @@ a {
 
 .l-flex-wrap {
   flex-wrap: wrap;
+}
+
+.l-sidebar {
+  min-width: 188px;
+}
+
+.badge {
+  background: #ffdd40;
+  border-radius: 4px;
+  margin-left: 4px;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+.button {
+  display: inline-block;
+  border: 3px solid #aaaebc;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+}
+.button:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  width: 154px;
+  padding: 0;
+}
+
+.button-logo-text {
+  display: block;
+  background: black;
+  padding: 8px;
+  width: 100%;
+}
+
+.codepen-logo {
+  text-align: center;
+}
+
+.sidebar {
+  background: #1F1F26;
+}
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px;
+}
+
+.sidebar-menu-title {
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  margin-bottom: 16px;
+}
+
+.sidebar-menu a {
+  display: block;
+  padding-left: 16px;
+}
+.sidebar-menu a:hover {
+  background: black;
+}
+
+.get-start-text {
+  margin: 0.2em;
+  font-size: 0.8em;
+  text-align: center;
+  color: #b7bbc8;
+}
+
+.text-warning {
+  color: #ffdd40;
+}
+
+.text-primary {
+  color: #47cf73;
+}
+
+.text-accent {
+  color: #0ebeff;
 }
 
 /*# sourceMappingURL=style.css.map */
