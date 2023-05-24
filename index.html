@@ -55,43 +55,136 @@
             <li><a class="text-weak">Blog</a></li>
             <li><a class="text-weak">Doc&Support</a></li>
           </ul> 
+        </div>
       </div>
-
 
       <main class="l-main">
-      <header class="l-header"><!--2.ヘッダー部分-->
-        <!-- Write code for Header-->
-      </header>
-
-
-      <div class="l-content"><!--3.コンテンツ部分-->
-        <section class="l-section">
-          <div class="hero">
-             <!-- Write code for Hero-->
+        <header class="l-header"><!--ヘッダー-->
+          <div class="l-flex search-form"><!--検索バー-->
+            <i class="fa fa-search"></i>
+            <input class="search-form-input" type="text" placeholder="Search CodePen...">
           </div>
-      </div>
-        </section>
+          <div class="l-flex header-buttons"><!--ログインボタン-->
+            <a class="button button-primary">Sign Up</a>
+            <a class="button button-secondary">Log In</a>
+          </div>
+        </header>
 
 
-        <section class="l-section">
-          <div class="l-flex l-flex-wrap features">
+        <div class="l-content"><!--コンテンツ-->
+          <section class="l-section">
+            <div class="hero"><!--コンテンツ上-->
+              <div class="hero-body"><!--左部分-->
+                <div class="hero-body-description">
+                  <div class="hero-body-description-content">
+                    <div class="hero-logo">
+                      <i class="fa fa-cube"></i>
+                    </div>
+                    <h1 class="hero-body-description-title">The best place to build, test, and discover front-end code.</h1>
+                    <p class="hero-body-description-text">
+                      CodePen is a <span class="text-bold">social development environment</span> for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+                    </p>
+                  </div>
+                  <div class="hero-footer"><!--Sign Upボタン-->
+                    <a class="button button-primary">Sign Up for Free</a>
+                  </div>
+                </div>
+
+                <div class="hero-body-image"><!--右部分-->
+                  <div class="hero-body-image-card">
+                    <div class="code-card code-card-html"><!--HTML-->
+                      <div class="l-flex l-align-center code-card-header">
+                        <div class="l-flex l-align-center code-card-title">
+                          <i class="fa fa-cog"></i>
+                          <h4 class="code-card-title-text">HTML</h4>
+                        </div>
+                        <i class="fa fa-chevron-down"></i>
+                      </div>
+                      <div class="code-card-body">
+                        <p>
+                          <span class="hilight-orange">&lt;div</span> <span class="hilight-beige">class</span>=<span class="hilight-green">"rect"</span><span class="hilight-orange">&gt;&lt;/div&gt;</span>
+                        </p>
+                      </div>
+                    </div>
+
+
+                    <div class="code-card code-card-scss"><!--scss-->
+                      <div class="l-flex l-align-center code-card-header">
+                        <div class="l-flex l-align-center code-card-title">
+                          <i class="fa fa-cog"></i>
+                          <h4 class="code-card-title-text">SCSS</h4>
+                        </div>
+                        <i class="fa fa-chevron-down"></i>
+                      </div>
+                      <div class="code-card-body">
+                        <p>
+                          <span class="hilight-beige">.rect</span> {
+                        </p>
+                        <p class="l-margin-left-2rem">
+                          <span class="hilight-purple">background</span>: <span class="hilight-beige">linear-gradient</span>(
+                        </p>
+                        <p class="l-margin-left-4rem">
+                          <span class="hilight-orange">-119deg</span>,
+                        </p>
+                        <p class="l-margin-left-4rem">
+                          <span class="hilight-beige">$gray</span> <span class="hilight-orange">0%</span>,
+                        </p>
+                        <p class="l-margin-left-4rem">
+                          <span class="hilight-beige">$dark-gray</span><span class="hilight-orange">100%</span>); <span class="cursor">|</span>
+                        </p>
+                      </div>
+                    </div>
+
+
+                    <div class="code-card code-card-js"><!--js-->
+                      <div class="l-flex l-align-center code-card-header">
+                        <div class="l-flex l-align-center code-card-title">
+                          <i class="fa fa-cog"></i>
+                          <h4 class="code-card-title-text">JS</h4>
+                        </div>
+                        <i class="fa fa-chevron-down"></i>
+                      </div>
+                      <div class="code-card-body">
+                        <p>
+                          <span class="hilight-beige">var</span>&nbsp;<span class="hilight-blue">colors</span>&nbsp;=
+                        </p>
+                        <p>
+                          [<span class="hilight-green">"#74B087"</span>,<span class="hilight-green">"#DE7300"</span>,<span class="hilight-green">"#74B087"</span>];
+                        </p>
+                        <p>
+                          &nbsp;<!--non-breaking space-->
+                        </p>
+                        <p>
+                          <span class="hilight-beige">function</span>&nbsp;<span class="hilight-blue">animate</span>()&nbsp;{};
+                        </p>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+
+          <section class="l-section">
+            <div class="l-flex l-flex-wrap features"><!--コンテンツ中-->
              <!-- Write code for Features-->
-          </div>
-        </section>
+            </div>
+          </section>
 
 
-        <section class="l-section">
-          <div class="product-item-list">
+          <section class="l-section">
+            <div class="product-item-list"><!--コンテンツ下-->
              <!-- Write code for Product List-->
-          </div>
-        </section>
+            </div>
+          </section>
+        </div>
 
-
-        <footer class="l-footer l-flex l-flex-wrap footer"><!--4.フッター部分-->
+        <footer class="l-footer l-flex l-flex-wrap footer"><!--フッター-->
              <!-- Write code for Footer List-->
         </footer>
-
-
       </main>
     </div>
   </body>

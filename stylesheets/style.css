@@ -45,6 +45,23 @@ ul {
   min-width: 188px;
 }
 
+.l-header {
+  display: flex;
+  align-items: center;
+}
+
+.l-section {
+  margin: 32px 0;
+}
+
+.l-margin-left-2rem {
+  margin-left: 2rem !important;
+}
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important;
+}
+
 .badge {
   background: #ffdd40;
   border-radius: 4px;
@@ -82,8 +99,164 @@ ul {
   width: 100%;
 }
 
+.button-primary {
+  border: 0;
+  background: #47cf73;
+  color: black;
+}
+
+.button-secondary {
+  border: 0;
+  background: #444857;
+}
+
+.code-card {
+  margin-bottom: 8px;
+  background: #1d1e22;
+  border-radius: 6px;
+  width: 300px;
+  height: 140px;
+  font-size: 13px;
+}
+
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between;
+}
+.code-card-header .fa:before {
+  color: #b7bbc8;
+}
+
+.code-card-body {
+  padding: 8px;
+  padding-top: 0;
+}
+.code-card-body p {
+  margin: 0;
+}
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.code-card-html {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+}
+
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px;
+}
+
+.code-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px;
+}
+
+.hilight-orange {
+  color: #a88038;
+}
+
+.hilight-beige {
+  color: #e1ca72;
+}
+
+.hilight-green {
+  color: #74b087;
+}
+
+.hilight-purple {
+  color: #9f8198;
+}
+
+.hilight-blue {
+  color: #7a99ad;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+.hero {
+  margin: 32px;
+}
+
+.hero-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-body-description {
+  width: 50%;
+  padding: 32px;
+}
+
+.hero-logo {
+  font-size: 36px;
+}
+
+.hero-body-description-title {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.hero-body-description-text {
+  font-size: 1.1rem;
+}
+
+.hero-footer .button {
+  width: 200px;
+  font-size: 1.4em;
+}
+
+.hero-body-image {
+  width: 50%;
+}
+
+.hero-body-image-card {
+  margin: 16px auto;
+  border-radius: 6px;
+  width: 495px;
+  height: 410px;
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+}
+
+.header-buttons {
+  padding: 8px;
+}
+.header-buttons .button {
+  margin-right: 8px;
+  min-width: 100px;
+}
+
 .codepen-logo {
   text-align: center;
+}
+
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  background: #252830;
+  border-radius: 4px;
+  width: 100%;
+}
+.search-form i {
+  font-size: 20px;
+}
+
+.search-form-input {
+  margin-left: 16px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background: #252830;
+  border: 0;
 }
 
 .sidebar {
@@ -97,7 +270,7 @@ ul {
 .sidebar-menu-title {
   font-size: 0.8rem;
   margin-bottom: 0.2rem;
-  margin-bottom: 16px;
+  margin-left: 16px;
 }
 
 .sidebar-menu a {
@@ -125,6 +298,14 @@ ul {
 
 .text-accent {
   color: #0ebeff;
+}
+
+.text-weak {
+  color: #b7bbc8;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
