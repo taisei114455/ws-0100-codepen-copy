@@ -1,6 +1,7 @@
 
 # codepen-copy
 
+自分のサイト: https://taisei114455.github.io/ws-0100-codepen-copy/
 
 デモ: https://version1-workspace.github.io/ws-0100-codepen-copy/
 
