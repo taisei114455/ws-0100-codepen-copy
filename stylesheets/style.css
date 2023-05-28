@@ -142,20 +142,87 @@ ul {
 }
 
 .product-item {
-  background: black;
+  background: #2c303a;
   margin: 2rem 1rem;
   width: 360px;
 }
 
+.product-item-row {
+  justify-content: center;
+}
+
+.product-item-card {
+  background: #2c303a;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.product-item-card:hover {
+  transform: scale(1.05);
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.product-message {
+  padding: 16px;
+}
+
+.product-message-body {
+  margin-bottom: 16px;
+  color: #b7bbc8;
+}
+
+.product-item-card-image {
+  width: 350px;
+  border-radius: 4px;
+  margin: auto;
+  padding: 8px;
+}
 .product-item-card-image img {
   width: 100%;
 }
 
+.product-item-card-body {
+  display: flex;
+  padding: 16px;
+  padding-top: 0;
+}
+
 .product-item-card-body-avator {
   width: 40px;
+  height: 40px;
+  border-radius: 4px;
 }
 .product-item-card-body-avator img {
   width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.product-item-card-body-title {
+  margin-left: 1rem;
+}
+.product-item-card-body-title p {
+  margin: 0;
+}
+
+.product-item-card-body-title-text {
+  margin: 0;
+}
+
+.product-item-card-footer {
+  padding: 8px 16px;
+}
+
+.product-item-card-footer-card {
+  background: black;
+  border-radius: 4px;
+  margin-right: 4px;
+  padding: 2px 4px;
+}
+
+.product-item-list-footer {
+  display: flex;
+  justify-content: center;
 }
 
 .code-card {
@@ -230,6 +297,31 @@ ul {
   animation: blink 1s infinite;
 }
 
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 576px) {
+  .code-card-html {
+    left: 120px;
+  }
+  .code-card-scss {
+    left: 160px;
+  }
+  .code-card-js {
+    left: 120px;
+  }
+}
 .features {
   justify-content: center;
 }
@@ -239,6 +331,25 @@ ul {
 
 .features-card {
   margin: 2rem 1rem;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: black;
+}
+
+.footer-links h4 {
+  margin: 2px;
+  margin-right: 1rem;
+}
+.footer-links li {
+  margin-right: 1rem;
+}
+
+.footer-logo {
+  font-size: 2rem;
 }
 
 .hero {
@@ -286,6 +397,17 @@ ul {
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
 }
 
+@media (max-width: 576px) {
+  .hero-body-description {
+    width: 100%;
+  }
+  .hero-body-image {
+    width: 100%;
+  }
+  .hero-body-image-card {
+    width: 100%;
+  }
+}
 .header-buttons {
   padding: 8px;
 }
@@ -340,6 +462,11 @@ ul {
   background: black;
 }
 
+@media (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+}
 .get-start-text {
   margin: 0.2em;
   font-size: 0.8em;
