@@ -1,7 +1,7 @@
-$color1-test: #ffdd40 /*とりあえずの変数*/
+@use "../variable" as v
 
 .badge
-  background: $color1-test
+  background: v.$warning-color
   border-radius: 4px
   margin-left: 4px
   color: black
