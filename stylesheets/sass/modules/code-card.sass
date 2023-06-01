@@ -32,16 +32,22 @@
   position: relative
   left: 160px
   bottom: 20px
+  @include v.sm-min
+    left: 120px
 
 .code-card-scss
   position: relative
   left: 220px
   bottom: 20px
+  @include v.sm-min
+    left: 160px
 
 .code-card-js
   position: relative
   left: 160px
   bottom: 20px
+  @include v.sm-min
+    left: 120px
 
 
 
@@ -78,13 +84,5 @@
     opacity: 1
 
 
-@media(max-width: 576px)
-  .code-card-html
-    left: 120px
-  
-  .code-card-scss
-    left: 160px
 
-  .code-card-js
-    left: 120px
 

@@ -2,6 +2,9 @@
 
 .sidebar
   background: v.$sidebar-color
+  @include v.sm-min  /*サイドバーが消える*/
+    display: none
+
 
 .sidebar-menu-sub-list
    margin-bottom: 16px
@@ -20,7 +23,3 @@
     &:hover
       background: black
 
-
-@media (max-width: 576px)  /*サイドバーが消える*/
-  .sidebar
-    display: none
